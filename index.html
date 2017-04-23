@@ -28,6 +28,9 @@
 
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9gP0XjjKSM9H977gtu0x-U0iOPzIX6U4&callback=initMap"   type="text/javascript"></script>
+
+
 <script type="text/javascript" charset='utf-8'>
 
     var map = null;
@@ -7386,7 +7389,7 @@ scllng[448]=114.01758;
 
 	function chg_district(selvalue){
 
-		location.href = "sch_map.php?lang_id=2&district_id="+selvalue;
+		location.href = "http://www.chsc.hk/ssp2016/sch_map.php?lang_id=2&district_id="+selvalue;
 
 	}
 
@@ -7456,7 +7459,7 @@ $(document).ready(function(){
 
 <body onLoad="initialize();showAddress(); ">
 
-<form name="form_map" id="form_map" action="sch_map.php?lang_id=2" method="post">
+<form name="form_map" id="form_map" action="http://www.chsc.hk/ssp2016/sch_map.php?lang_id=2" method="post">
 
 <center><img src="header.jpg" alt="header" width="682" height="226" style="width:683px;height:300px;" >
 
@@ -7474,7 +7477,7 @@ $(document).ready(function(){
 <button type="button" class="btn btn-primary" data-toggle="button3" aria-pressed="false" autocomplete="off" a href="https://group1-school.github.io/quiz">
   測試多次
 </button>
-
+</center>
 <br>
 
 <br>
